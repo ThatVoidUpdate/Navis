@@ -23,6 +23,7 @@ public class GroundCreator : MonoBehaviour
 
     private MeshRenderer rend;
     private MeshFilter filter;
+    private MeshCollider collider;
 
     [HideInInspector]
     public int ChunkX = 0;
@@ -30,11 +31,13 @@ public class GroundCreator : MonoBehaviour
     public int ChunkY = 0;
 
     private bool HasGenerated = false;
+    
 
     public void Start()
     {
         rend = GetComponent<MeshRenderer>();
         filter = GetComponent<MeshFilter>();
+        collider = GetComponent<MeshCollider>();
         Generate();
     }
 
@@ -76,6 +79,11 @@ public class GroundCreator : MonoBehaviour
         mesh.RecalculateNormals();
 
         filter.mesh = mesh;
+
+        if (collider != null)
+        {
+            collider.sharedMesh = mesh;
+        }
     }
 
 
