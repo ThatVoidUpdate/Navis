@@ -256,8 +256,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.20225687, y: 0.3883517, z: -0.08778619, w: 0.89474505}
-  m_LocalPosition: {x: -4.441536, y: 3.4571304, z: -7.1022606}
+  m_LocalRotation: {x: 0.25978282, y: 0.35830912, z: -0.10451373, w: 0.89062023}
+  m_LocalPosition: {x: -1.8882647, y: 8.169526, z: -2.7281485}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -297,10 +297,12 @@ MonoBehaviour:
   Width: 100
   Height: 100
   TriangleSize: 0.1
-  CoarsePerlinWidthScale: 0
-  CoarsePerlinHeightScale: 0
-  FinePerlinWidthScale: 0
-  FinePerlinHeightScale: 0
+  CoarsePerlinWidthScale: 0.001
+  CoarsePerlinHeightScale: 3
+  FinePerlinWidthScale: 0.15
+  FinePerlinHeightScale: 1
+  ChunkX: 0
+  ChunkY: 0
 --- !u!4 &1053474802
 Transform:
   m_ObjectHideFlags: 0
@@ -309,7 +311,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053474800}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.87522566, y: -2.1632612, z: -4.257402}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
