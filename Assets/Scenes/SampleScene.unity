@@ -395,6 +395,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1063784037}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1063784045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063784038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7101a8eafc18da04fb9e8b506a5f0921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 10
+  Propeller: {fileID: 1587003052}
 --- !u!1 &1127559784
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,3 +457,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1587003052 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2902658868659973412, guid: 8ea64d72e6ae1894385e6e583571c180,
+    type: 3}
+  m_PrefabInstance: {fileID: 1063784037}
+  m_PrefabAsset: {fileID: 0}
